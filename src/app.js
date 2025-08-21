@@ -26,7 +26,7 @@ window.onload = function () {
 
   console.log(excusa());
 
-
-  console.log("Hello Rigo from the console!");
+let excuse= document.getElementById("excuse")
+excuse.innerHTML=excusa();
 };
 
